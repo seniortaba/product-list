@@ -1,0 +1,17 @@
+{
+    "name": "taba/product-list",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Taba",
+            "email": "giotabatadze9@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
