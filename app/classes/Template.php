@@ -2,8 +2,10 @@
 
 namespace App\classes;
 
-abstract class Template
+use App\Models\Database;
+
+abstract class Template extends Database
 {
     abstract public function fieldsCheck();
-    abstract public function InsertData($table, $productID);
+    abstract public function InsertData(Database $database, $table);
 }

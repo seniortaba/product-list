@@ -2,18 +2,9 @@
 
 namespace App\Models;
 
-use App\classes\Template;
 
-class Dimensions Implements Template
+class Dimensions
 {
 
-    public function fieldsCheck()
-    {
-        // TODO: Implement fieldsCheck() method.
-    }
 
-    public function InsertData()
-    {
-        // TODO: Implement InsertData() method.
-    }
 }
